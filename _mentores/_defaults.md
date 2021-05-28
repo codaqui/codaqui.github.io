@@ -1,0 +1,6 @@
+---
+nome:
+cidade:
+site:
+avatar:
+---
