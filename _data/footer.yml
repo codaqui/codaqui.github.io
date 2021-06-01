@@ -1,0 +1,16 @@
+- title: Paginas
+  links:
+    - name: Home
+      link: /
+    - name: Projetos
+      link: /projetos/
+    - name: Mentores
+      link: /mentores/
+    - name: Blog
+      link: /blog/
+- title: Social
+  links:
+    - name: GitHub
+      link: https://www.github.com/kidsacademydev
+      social_icon: GitHub
+      new_window: true

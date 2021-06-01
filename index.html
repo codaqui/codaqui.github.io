@@ -1,0 +1,43 @@
+---
+title: Kids Academy
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">Codificando sonhos!</h2>
+		<p class="subtext editable">Um projeto dedicado a jovens e adolescentes, no qual hoje trabalhamos com um foco temático no aprendizado de programação e no desenvolvimento de produtos e serviços digitais.</p>
+		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Dúvidas?</a></p>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">Projetos</h3>
+			<p class="editable">Os participantes do projeto atuam no desenvolvimento de diferentes projetos que visam solucionar problemas reais.</p>
+			<p class="editable"><a href="{{ site.baseurl }}/projetos/">Ver mais &rarr;</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for projeto in site.projetos limit: 4 %}
+					<li><a href="{{ projeto.repositorio }}" target="_blank"><img alt="Imagem do Projeto: {{projeto.nome}}" src="{% include relative-src.html src=projeto.imagem %}"></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="container halves">
+		<div>
+			<ul class="image-list">
+				<li><img alt="Imagem com vários retratos, simbolizando diversidade." src="{{ site.baseurl }}/images/pessoas.jpg"></li>
+			</ul>
+		</div>
+		<div>
+			<h3 class="editable">Diversidade e Inclusão</h3>
+			<p class="editable">O projeto é inteiramente gratuito e com ele queremos levar o ensino técnologico aonde ainda existem barreiras!</p>
+			<p class="editable"><a href="{{ site.baseurl }}/projetos/">Quero participar &rarr;</a></p>
+		</div>
+	</div>
+</section>

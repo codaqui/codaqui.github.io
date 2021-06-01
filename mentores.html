@@ -1,0 +1,15 @@
+---
+title: Mentores
+heading: Mentores
+subtitle: Conheça nosso time de mentores.
+---
+
+<section class="diagonal patterned">
+	<div class="container">
+		<ul class="image-grid">
+			{% for membro in site.mentores %}
+				<li>{% include mentores.html membro=membro %}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

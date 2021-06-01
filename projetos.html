@@ -1,0 +1,25 @@
+---
+title: Projetos
+heading: Projetos
+subtitle: Alguns dos projetos desenvolvidos junto aos participantes.
+---
+
+<section class="diagonal patterned">
+	<div class="container">
+		<ul class="image-grid">
+			{% for projeto in site.projetos %}
+				<li>
+					<a href="{{ site.baseurl }}/projetos/{{ projeto.arquivo }}">
+						<img src="{% include relative-src.html src=projeto.imagem %}" alt="{{ projeto.titulo }}">
+						<div class="details">
+							<div class="name">{{ projeto.titulo }}</div>
+							<div class="position">{{ projeto.descricao }}</div>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+			<li class="filler"></li>
+			<li class="filler"></li>
+		</ul>
+	</div>
+</section>

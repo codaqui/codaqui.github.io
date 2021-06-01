@@ -1,0 +1,16 @@
+<div class="square-image"><img src="{% include relative-src.html src=include.membro.avatar %}" alt="{{ include.membro.nome }}"/></div>
+<div class="details">
+	<div class="name">{{ include.membro.nome }}</div>
+	<div class="position">
+		{{ include.membro.cidade }}
+		<div style="float: right !important; background: white; border-radius: 5px; padding: 5px;">
+			{% if include.membro.site %}
+			<a href="{{ include.membro.site }}" target="_blank"><i class="fas fa-globe-americas"></i></a>
+			{% endif %}
+			{% if include.membro.github %}
+			<a href="https://github.com/{{ include.membro.github }}" target="_blank"><i class="fab fa-github-alt"></i></a>
+			{% endif %}
+		</div>
+	</div>
+</div>
+

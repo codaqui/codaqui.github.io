@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign portfolio = site.pages | where: "path", "projetos.html" | first %}
+
+<section class="hero diagonal">
+	<div class="container">
+		{% if page.titulo %}
+		<h2><a href="{{ site.baseurl }}/projetos/">projetos</a> / {{ page.titulo | capitalize }}</h2>
+		{% endif %}
+		{% if page.descricao %}
+			<p class="subtext">{{ page.descricao }}</p>
+		{% endif %}
+	</div>
+</section>
+
+<section class="diagonal">
+	<div class="container">
+		<p><img src="{% include relative-src.html src=page.imagem %}" class="screenshot"></p>
+		<div>
+			{{ content }}
+		</div>
+		<p><a href="{{ page.repositorio }}" target="_blank">Acesse o repositório do {{ page.titulo }} &rarr;</a></p>
+	</div>
+</section>
