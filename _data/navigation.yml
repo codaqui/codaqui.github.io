@@ -1,4 +1,6 @@
 links:
+- name: Sobre
+  link: /sobre/
 - name: Projetos
   link: /projetos/
 - name: Mentores

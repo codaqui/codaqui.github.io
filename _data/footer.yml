@@ -2,6 +2,8 @@
   links:
     - name: Home
       link: /
+    - name: Sobre
+      link: /sobre/
     - name: Projetos
       link: /projetos/
     - name: Mentores
