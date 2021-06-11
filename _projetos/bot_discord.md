@@ -1,7 +1,7 @@
 ---
 arquivo: bot_discord
 titulo: Discord Bot
-repositorio: https://github.com/kidsacademydev/bot-discord
+repositorio: https://github.com/kidsacademydev/projeto-bot-discord
 descricao: Bot personalizado para Discord
 imagem: /images/projetos/bot_discord.jpg
 ---
