@@ -1,7 +1,7 @@
 ---
 nome: Luiz Fernando
-cidade: Umuarama
+cidade: Umuarama/PR
 site: ---
-avatar:---
+avatar: ---
 github: LuizFernando-TC
 ---
