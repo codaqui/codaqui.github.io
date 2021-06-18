@@ -1,7 +1,7 @@
 ---
 nome: Pedro Varanda
-cidade: Petrópolis
+cidade: Rio de Janeiro/RJ
 site: ---
 avatar: ---
-github: PaoOficial
+github: PaoOfc
 ---
