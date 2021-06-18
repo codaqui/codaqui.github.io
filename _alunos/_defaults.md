@@ -1,7 +1,7 @@
 ---
-nome:
-cidade:
-site:
-avatar:
-github:
+nome: Pedro Varanda
+cidade: Petrópolis
+site: ---
+avatar: ---
+github: 
 ---
