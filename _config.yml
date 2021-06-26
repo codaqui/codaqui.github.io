@@ -1,5 +1,5 @@
-title: Kids Academy
-url: "https://kidsacademy.dev"
+title: Codaqui
+url: "https://codaqui.dev"
 baseurl: ""
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -13,9 +13,9 @@ author:
   twitter:
 
 social:
-  name: Kids Academy
+  name: Codaqui!
   links:
-    - https://kidsacademy.dev
+    - https://codaqui.dev
 
 timezone: Etc/UTC
 
